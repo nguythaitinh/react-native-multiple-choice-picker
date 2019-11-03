@@ -1,0 +1,19 @@
+{
+  "name": "react-native-multiple-choice-picker",
+  "version": "1.0.0",
+  "description": "Simple multiple choice picker for react native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nguyen Thai Tinh",
+  "license": "ISC",
+  "devDependencies": {
+    "metro-react-native-babel-preset": "^0.57.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "prop-types": "^15.7.2",
+    "react-native": "^0.61.3"
+  }
+}
