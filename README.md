@@ -16,7 +16,7 @@ Or
 ### Basic Usage
 ```js
 <MultipleChoice
-  choices={['Football', 'Badminton', 'Basketball', 'Tennis']}/>
+  choices={['Football', 'Soccer']}/>
 ```
 ![example](https://i.ibb.co/3B9bzH3/Screen-Shot-2019-11-05-at-04-50-17.png)
 
