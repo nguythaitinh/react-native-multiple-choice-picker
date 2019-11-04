@@ -41,7 +41,7 @@ Or
   direction={'column'}
   choices={['Football', 'Badminton', 'Basketball', 'Tennis']}/>
 ```
-![example](https://i.ibb.co/JjmXS92/Screen-Shot-2019-11-05-at-05-42-10.png)
+![example](https://i.ibb.co/MN79h4H/Screen-Shot-2019-11-05-at-05-55-33.png)
 
 ### Props
 

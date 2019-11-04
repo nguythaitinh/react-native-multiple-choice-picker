@@ -1,6 +1,6 @@
 {
   "name": "react-native-multiple-choice-picker",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simple multiple choice picker for react native",
   "main": "index.js",
   "scripts": {
