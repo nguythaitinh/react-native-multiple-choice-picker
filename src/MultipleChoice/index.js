@@ -28,7 +28,7 @@ export default class MultipleChoice extends Component {
 		choices: [],
 		chosenIndex: 0,
 		chosenTextColor: '#e2641e',
-		onPress: {},
+		onPress: () => {},
 		outerRound: 24,
 		innerRound: 24 * 3.5 / 5,
 		renderCustomItem: () => {
@@ -101,7 +101,7 @@ export default class MultipleChoice extends Component {
 const styles = StyleSheet.create({
 	container: {
 		flexDirection: 'row',
-		justifyContent: 'space-between',
+		justifyContent: 'space-around',
 		paddingHorizontal: 16
 	},
 	itemView: {
