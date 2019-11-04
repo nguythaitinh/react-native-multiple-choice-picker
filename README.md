@@ -32,14 +32,14 @@ Or
 
 ```js
 <MultipleChoice
-					renderCustomItem={() => {
-						return <Text style={{ color: 'red', fontWeight: 'bold' }}>Basketball</Text>
-					}}
-					chosenColor={'red'}
-					chosenTextColor={'black'}
-					customIndex={0}
-					direction={'column'}
-					choices={['Football', 'Badminton', 'Basketball', 'Tennis']}/>
+  renderCustomItem={() => {
+    return <Text style={{ color: 'red', fontWeight: 'bold' }}>Basketball</Text>
+  }}
+  chosenColor={'red'}
+  chosenTextColor={'black'}
+  customIndex={0}
+  direction={'column'}
+  choices={['Football', 'Badminton', 'Basketball', 'Tennis']}/>
 ```
 ![example](https://i.ibb.co/JjmXS92/Screen-Shot-2019-11-05-at-05-42-10.png)
 
