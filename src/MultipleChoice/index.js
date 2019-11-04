@@ -7,7 +7,7 @@ type Props = {
 	direction?: string,
 	chosenColor?: string,
 	TouchableComponent?: any,
-	choices?: any,
+	choices: any,
 	chosenIndex?: number,
 	chosenTextColor?: string,
 	onPress?: any,
@@ -64,7 +64,7 @@ export default class MultipleChoice extends Component {
 								onPress(index);
 							}}
 							isChosen={isChosen}
-							chosenColor={chosenColor}/>
+							innerChosenColor={chosenColor}/>
 						{
 							index === customIndex
 								? this.renderCustomItem(renderCustomItem)
