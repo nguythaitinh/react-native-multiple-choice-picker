@@ -14,26 +14,21 @@ Or
 `yarn add npm i react-native-multiple-choice-picker`
 
 ### Basic Usage
-
-![example](https://i.ibb.co/3B9bzH3/Screen-Shot-2019-11-05-at-04-50-17.png)
-
 ```js
 <MultipleChoice
   choices={['Football', 'Badminton', 'Basketball', 'Tennis']}/>
 ```
+![example](https://i.ibb.co/3B9bzH3/Screen-Shot-2019-11-05-at-04-50-17.png)
 
 
-
-![example](https://i.ibb.co/LCWQ5FZ/Screen-Shot-2019-11-05-at-05-35-51.png)
 
 ```js
 <MultipleChoice
   direction={'column'}
   choices={['Football', 'Badminton', 'Basketball', 'Tennis']}/>
 ```
+![example](https://i.ibb.co/LCWQ5FZ/Screen-Shot-2019-11-05-at-05-35-51.png)
 
-
-![example](https://i.ibb.co/JjmXS92/Screen-Shot-2019-11-05-at-05-42-10.png)
 
 ```js
 <MultipleChoice
@@ -46,6 +41,8 @@ Or
 					direction={'column'}
 					choices={['Football', 'Badminton', 'Basketball', 'Tennis']}/>
 ```
+![example](https://i.ibb.co/JjmXS92/Screen-Shot-2019-11-05-at-05-42-10.png)
+
 ### Props
 
 | Name                                            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Details                  |
