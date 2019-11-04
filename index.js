@@ -1,3 +1,3 @@
 import MultipleChoice from './src/MultipleChoice';
 
-export { MultipleChoice };
+export default MultipleChoice ;
